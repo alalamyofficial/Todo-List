@@ -1,4 +1,4 @@
-# crud
+# TodoList
 
 ## Project setup
 ```
