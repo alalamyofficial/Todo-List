@@ -8,13 +8,13 @@
 
             <div v-if="!isEditing">
 
-              <input type="text" v-model="todo" class="form-control"><br>
+              <input type="text" v-model="todo" class="form-control" required><br>
               <input type="submit" value="Add" @click="storeTodo" class="btn btn-primary">
 
             </div>
 
             <div v-else>
-                <input type="text" v-model="todo" class="form-control"><br>
+                <input type="text" v-model="todo" class="form-control" required><br>
                 <input type="submit" value="Update" @click="updateTodo" class="btn btn-success">
             </div>
             
